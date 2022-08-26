@@ -1,5 +1,5 @@
 <?php
-$feed_url = "https://your_blog/feed";
+$feed_url = "https://blog.xlrt.top/?feed=rss";
 $data = simplexml_load_file($feed_url)->channel->item;
 $resp = [
     "status" => 0,
