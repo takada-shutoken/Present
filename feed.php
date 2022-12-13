@@ -1,5 +1,5 @@
 <?php
-$feed_url = "https://blog.xlrt.top/?feed=rss2/";
+$feed_url = "https://blog.xlrt.top/atom.xml";
 $data = simplexml_load_file($feed_url)->channel->item;
 $resp = [
     "status" => 0,
